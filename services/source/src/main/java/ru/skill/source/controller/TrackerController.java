@@ -11,7 +11,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @RestController
-@RequestMapping("api/item")
+@RequestMapping("/api/item")
 public class TrackerController {
     private final TrackerService trackerService;
 
