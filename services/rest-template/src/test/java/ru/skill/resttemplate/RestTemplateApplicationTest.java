@@ -1,10 +1,10 @@
-package ru.skill.source;
+package ru.skill.resttemplate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SourceApplicationTests {
+class RestTemplateApplicationTest {
 
 	@Test
 	void contextLoads() {

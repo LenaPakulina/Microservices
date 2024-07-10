@@ -1,4 +1,4 @@
-package ru.skill.source.model;
+package ru.skill.resttemplate.model;
 
 import lombok.*;
 

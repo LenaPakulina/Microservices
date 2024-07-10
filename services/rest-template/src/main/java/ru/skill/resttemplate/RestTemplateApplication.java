@@ -1,4 +1,4 @@
-package ru.skill.source;
+package ru.skill.resttemplate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

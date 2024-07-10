@@ -1,11 +1,11 @@
-package ru.skill.source.controller;
+package ru.skill.resttemplate.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.skill.source.model.Item;
-import ru.skill.source.service.TrackerService;
+import ru.skill.resttemplate.model.Item;
+import ru.skill.resttemplate.service.TrackerService;
 
 import java.util.List;
 
