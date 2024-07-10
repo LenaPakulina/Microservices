@@ -136,3 +136,51 @@ org.springframework.web.client.HttpServerErrorException$InternalServerError: 500
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
+2024-07-10T17:48:51.926+05:00  WARN 16852 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'trackerController' defined in file [C:\projects\delete_me\microservices\services\openfeign\target\classes\ru\skill\openfeign\controller\TrackerController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'trackerService' defined in file [C:\projects\delete_me\microservices\services\openfeign\target\classes\ru\skill\openfeign\service\TrackerService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'ru.skill.openfeign.service.TrackerProxy': Unexpected exception during bean creation
+2024-07-10T17:48:51.950+05:00 ERROR 16852 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.skill.openfeign.service.TrackerService required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2024-07-10T17:50:09.585+05:00  WARN 15844 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'trackerController' defined in file [C:\projects\delete_me\microservices\services\openfeign\target\classes\ru\skill\openfeign\controller\TrackerController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'trackerService' defined in file [C:\projects\delete_me\microservices\services\openfeign\target\classes\ru\skill\openfeign\service\TrackerService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'ru.skill.openfeign.service.TrackerProxy': Unexpected exception during bean creation
+2024-07-10T17:50:09.612+05:00 ERROR 15844 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.skill.openfeign.service.TrackerService required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2024-07-10T17:50:38.950+05:00  WARN 18748 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'trackerController' defined in file [C:\projects\delete_me\microservices\services\openfeign\target\classes\ru\skill\openfeign\controller\TrackerController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'trackerService' defined in file [C:\projects\delete_me\microservices\services\openfeign\target\classes\ru\skill\openfeign\service\TrackerService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'ru.skill.openfeign.service.TrackerProxy': Unexpected exception during bean creation
+2024-07-10T17:50:38.974+05:00 ERROR 18748 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.skill.openfeign.service.TrackerService required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
