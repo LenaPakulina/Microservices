@@ -1,0 +1,16 @@
+2024-07-10T17:54:29.651+05:00  WARN 20124 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'trackerController' defined in file [C:\projects\delete_me\microservices\services\openfeign\target\classes\ru\skill\openfeign\controller\TrackerController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'trackerService' defined in file [C:\projects\delete_me\microservices\services\openfeign\target\classes\ru\skill\openfeign\service\TrackerService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'ru.skill.openfeign.service.TrackerProxy': Unexpected exception during bean creation
+2024-07-10T17:54:29.676+05:00 ERROR 20124 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.skill.openfeign.service.TrackerService required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+

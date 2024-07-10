@@ -1,0 +1,16 @@
+2024-07-10T18:02:40.382+05:00  WARN 19568 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'trackerController' defined in file [C:\projects\delete_me\microservices\services\webclient\target\classes\ru\skill\webclient\controller\TrackerController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'trackerService' defined in file [C:\projects\delete_me\microservices\services\webclient\target\classes\ru\skill\webclient\service\TrackerService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.web.reactive.function.client.WebClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-07-10T18:02:40.408+05:00 ERROR 19568 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.skill.webclient.service.TrackerService required a bean of type 'org.springframework.web.reactive.function.client.WebClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.reactive.function.client.WebClient' in your configuration.
+
