@@ -12,6 +12,8 @@
 
     <modules>
         <module>services/source</module>
+        <module>services/rest-template</module>
+        <module>services/openfeign</module>
     </modules>
 
     <properties>
