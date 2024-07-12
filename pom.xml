@@ -15,6 +15,9 @@
         <module>services/rest-template</module>
         <module>services/openfeign</module>
         <module>services/webclient</module>
+
+        <module>services-exchange/forex</module>
+        <module>services-exchange/conversion</module>
     </modules>
 
     <properties>
